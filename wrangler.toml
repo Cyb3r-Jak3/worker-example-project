@@ -1,0 +1,10 @@
+name = "example-project"
+type = "javascript"
+zone_id = "eff05b39c27d06d4f546481661c8ab8f"
+account_id = "8be772befd147a8df540aae0fa15c047"
+workers_dev = true
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
