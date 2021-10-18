@@ -8,6 +8,3 @@ workers_dev = true
 command = "npm install && npm run build"
 [build.upload]
 format = "service-worker"
-
-[env.demo]
-zone_id = ""
