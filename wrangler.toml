@@ -1,12 +1,9 @@
 name = "example-project"
-type = "javascript"
-account_id = ""
+
+entry-point = "./src/index.ts"
 
 [build]
 command = "npm install && npm run build"
-[build.upload]
-format = "service-worker"
 
 [env.staging]
-zone_id = "eff05b39c27d06d4f546481661c8ab8f"
 workers_dev = true

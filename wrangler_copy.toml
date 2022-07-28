@@ -1,7 +1,5 @@
-name = "example-project"
-type = "javascript"
-zone_id = ""
-account_id = ""
+name = "example-project-2"
+entry-point = "./src/index.ts"
 workers_dev = true
 
 [build]
