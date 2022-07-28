@@ -1,5 +1,7 @@
 name = "example-project"
 
+[main]
+
 entry-point = "./src/index.ts"
 
 [build]
