@@ -1,0 +1,8 @@
+name = "example-project-wrangler1"
+type = "javascript"
+account_id = ""
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
