@@ -1,8 +1,6 @@
 name = "example-project"
 
-[main]
-
-entry-point = "./src/index.ts"
+main = "./src/index.ts"
 
 [build]
 command = "npm install && npm run build"

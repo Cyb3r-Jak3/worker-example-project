@@ -1,10 +1,7 @@
 name = "example-project-2"
 workers_dev = true
 
-[main]
-
-entry-point = "./src/index.ts"
-
+main = "./src/index.ts"
 
 [build]
 command = "npm install && npm run build"
