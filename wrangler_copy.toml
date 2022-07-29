@@ -2,6 +2,7 @@ name = "example-project-2"
 workers_dev = true
 
 main = "./src/index.ts"
+compatibility_date = "2022-06-29"
 
 [build]
 command = "npm install && npm run build"
